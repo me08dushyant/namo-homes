@@ -1,4 +1,4 @@
-import { LitElement, css , html } from 'lit-element';
+import { LitElement, css , html } from 'https://unpkg.com/lit-html/lit-html.js';
 
 class MyElement extends LitElement {
     static get properties() {
