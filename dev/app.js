@@ -36,7 +36,7 @@ let hiddenbar =() => html`
 		<!-- .logo -->
 		<div class="logo text-center">
 			<a href="index.html">
-				<img src="img/resources/hidden-bar-logo.png" alt="">
+				<img src="img/resources/header-inner-logo.png" alt="">
 			</a>			
 		</div><!-- /.logo -->
 		<!-- .main-menu -->
