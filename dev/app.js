@@ -12,7 +12,7 @@ let headertop = () => html`
 				<!-- .contact-info -->
 				<div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 pull-right text-right">
 					<ul class="contact-info">
-						<li><a href="#"><i class="fa fa-envelope"></i> info@aparttvilla.com</a></li>
+						<li><a href="#"><i class="fa fa-envelope"></i> info@namohomes.com</a></li>
 						<li><a href="#"><i class="fa fa-phone"></i> 1800 -984-9658</a></li>
 					</ul>
 				</div><!-- /.contact-info -->
@@ -125,7 +125,7 @@ let footer = () =>html`
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 pull-left">
-				<a href="#"><img src="img/resources/footer-logo.png" alt=""></a>
+				<a href="#"><img src="img/resources/header-inner-logo.png" alt=""></a>
 			</div>
 			<div class="col-lg-7 col-md-7 col-sm-12 pull-right text-right text-center-sm text-center-xs">
 				<!-- .footer-menu -->
@@ -135,13 +135,13 @@ let footer = () =>html`
 	                    <li><a href="about.html">About Us</a></li>
 	                    <li><a href="gallery1.html">Gallery</a></li>
 	                    <li><a href="take-a-tour.html">Take a Tour</a></li>                
-	                    <li><a href="blog-left.html">Blog</a></li>
+	                    <li><a href="blog-left.html">News</a></li>
 	                    <li><a href="contact.html">Contact Us</a></li>
 					</ul>
 				</div><!-- /.footer-menu -->
 				<!-- .footer-copyright -->
 				<div class="footer-copyright">
-					<p>Copyright &copy; Apartt Villa 2015. All rights reserved.</p>
+					<p>Copyright &copy; NAMO HOMES,2020 All rights reserved.</p>
 				</div><!-- /.footer-copyright -->
 			</div>
 		</div>
