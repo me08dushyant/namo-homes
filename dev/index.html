@@ -11,6 +11,57 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- responsive stylesheet -->
 	<link rel="stylesheet" href="css/responsive.css">
+	<style>
+         @keyframes slider{
+            
+            0%{
+                margin-left: 0;
+            }
+            
+            12.5%{
+                margin-left: -100%;
+            }
+            25%{
+                margin-left: -100%;
+            }
+            37.5%{
+                margin-left: -200%;
+            }
+            50%{
+                margin-left: -200%;
+            }
+            
+            75%{
+                margin-left: -300%;
+                
+            }
+            87.5%{
+                margin-left: -300%;
+            }
+            100%{
+                margin-left: -300%;
+            }
+            
+            
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .slider{
+            width: 100%;
+            overflow: hidden;
+        }
+        .slider .slide{
+            width: 400%;
+            animation: slider 10s ease 3s infinite;
+        }
+        .slider .slide img{
+            float: left;
+            width: 25%;
+        }
+        
+    </style>
 </head>
 <body>
 <!-- .preloader -->
@@ -31,147 +82,15 @@
 	</div>
     <!-- /#nav-bar -->
 <!-- #banner -->
-<section id="slider-banner">
-	<div class="slider-banner-container">
-		<div class="slider-banner" data-height="845">
-			<ul>
-
-				<li 
-					class="slider-1" 
-					data-transition="fade" 
-					data-slotamount="7" 
-					data-thumb="img/slides/slide1.jpg"
-					data-title="EXPERTISE YOU CAN TRUST">
-					
-					<img 
-						src="img/slides/slide1.jpg" 
-						data-bgrepeat="no-repeat" 
-						data-bgfit="cover" 
-						data-bgposition="top center"
-						alt="slider image">
-						
-					<div class="caption sfr tp-resizeme property-details"
-						data-x="0" 
-						data-y="110" 
-						data-speed="700" 
-						data-start="1700"  
-						data-easing="easeOutBack">
-						<div class="inner-border">
-							<!-- .address -->
-							<div class="address">
-								<p>NAMO HOMES <br>Jhansi -UP</p>
-							</div><!-- /.address -->
-							<!-- .options -->
-							<div class="options">
-								<ul>
-									<li><span class="number">2</span> Bathrom</li>
-									<li><span class="number">2</span> Drawingroom</li>
-									<li><span class="number">3150</span> Sq.ft</li>
-								</ul>
-							</div><!-- /.options -->
-							<!-- .price -->
-							<div class="price">
-								<label class="number">Price: </label>
-								<b class="number price-number">5,00,000,Rs</b>
-							</div><!-- /.price -->
-							<a href="#" class="schedule-visit anim-5" data-toggle="modal" data-target="#contact-agent-modal">Schedule Visit <i class="fa fa-arrow-circle-right"></i></a>
-						</div>
-					</div>
-					
-				</li>
-				<li 
-					class="slider-2" 
-					data-transition="fade" 
-					data-slotamount="7" 
-					data-thumb=""
-					data-title="WE ARE AVAILABLE">
-
-					<img 
-						src="" 
-						data-bgrepeat="no-repeat" 
-						data-bgfit="cover" 
-						data-bgposition="top center"
-						alt="slider image">
-
-					<div class="caption sfr tp-resizeme property-details"
-						data-x="0" 
-						data-y="110" 
-						data-speed="700" 
-						data-start="1700"  
-						data-easing="easeOutBack">
-						<div class="inner-border">
-							<!-- .address -->
-							<div class="address">
-								<p>NAMO HOMES<br>Jhansi-UP</p>
-							</div><!-- /.address -->
-							<!-- .options -->
-							<div class="options">
-								<ul>
-									<li><span class="number">2</span> Bathrom</li>
-									<li><span class="number">2</span> Drawingroom</li>
-									<li><span class="number">3150</span> Sq.ft</li>
-								</ul>
-							</div><!-- /.options -->
-							<!-- .price -->
-							<div class="price">
-								<label class="number">Price: </label>
-								<b class="number price-number">5,00,000,Rs</b>
-							</div><!-- /.price -->
-							<a href="#" class="schedule-visit anim-5" data-toggle="modal" data-target="#contact-agent-modal">Schedule Visit <i class="fa fa-arrow-circle-right"></i></a>
-						</div>
-					</div>
-
-
-				</li>
-				<li 
-					class="slider-3" 
-					data-transition="fade" 
-					data-slotamount="7" 
-					data-thumb=""
-					data-title="24 hours availability">
-
-					<img 
-						src="" 
-						data-bgrepeat="no-repeat" 
-						data-bgfit="cover" 
-						data-bgposition="center center"
-						alt="slider image">
-					
-					<div class="caption sfr tp-resizeme property-details"
-						data-x="0" 
-						data-y="110" 
-						data-speed="700" 
-						data-start="1700"  
-						data-easing="easeOutBack">
-						<div class="inner-border">
-							<!-- .address -->
-							<div class="address">
-								<p>NAMO HOMES<br>Jhansi-UP</p>
-							</div><!-- /.address -->
-							<!-- .options -->
-							<div class="options">
-								<ul>
-									<li><span class="number">2</span> Bathrom</li>
-									<li><span class="number">2</span> Drawingroom</li>
-									<li><span class="number">3150</span> Sq.ft</li>
-								</ul>
-							</div><!-- /.options -->
-							<!-- .price -->
-							<div class="price">
-								<label class="number">Price: </label>
-								<b class="number price-number">5,00,000,Rs</b>
-							</div><!-- /.price -->
-							<a href="#" class="schedule-visit anim-5" data-toggle="modal" data-target="#contact-agent-modal">Schedule Visit <i class="fa fa-arrow-circle-right"></i></a>
-						</div>
-					</div>
-
-				</li>
-
-			</ul>
-		</div>
+<div class="slider">
+	<div class="slide">
+		<img src="img/slides/slide1.jpg" alt="Slide 1">
+		<img src="img/slides/slide2.jpg" alt="Slide 2">
+		<img src="img/slides/slide3.jpg" alt="Slide 3">
+		<img src="img/slides/slide1.jpg" alt="Slide 1">
 	</div>
-</section> <!-- /#banner -->
-
+</div>
+ <!-- /#banner -->
 <!-- #about-section -->
 <section id="about-section" class="parallax-section" style="background-image: url(img/about/bg.png);">
 	<div class="container">
