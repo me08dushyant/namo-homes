@@ -150,6 +150,7 @@ class MyElement1 extends LitElement {
         text-transform: uppercase;
         transition: all .3s ease;
         position: relative;
+        left:30px;
       }
       a.schedule-visit i {
         font-size: 18px;
