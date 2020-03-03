@@ -12,56 +12,16 @@
 	<!-- responsive stylesheet -->
 	<link rel="stylesheet" href="css/responsive.css">
 	<style>
-         @keyframes slider{
-            
-            0%{
-                margin-left: 0;
-            }
-            
-            12.5%{
-                margin-left: -100%;
-            }
-            25%{
-                margin-left: -100%;
-            }
-            37.5%{
-                margin-left: -200%;
-            }
-            50%{
-                margin-left: -200%;
-            }
-            
-            75%{
-                margin-left: -300%;
-                
-            }
-            87.5%{
-                margin-left: -300%;
-            }
-            100%{
-                margin-left: -300%;
-            }
-            
-            
-        }
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .slider{
-            width: 100%;
-            overflow: hidden;
-        }
-        .slider .slide{
-            width: 400%;
-            animation: slider 10s ease 3s infinite;
-        }
-        .slider .slide img{
-            float: left;
-            width: 25%;
-        }
-        
-    </style>
+		.slider{
+			position: relative;
+		}
+		.info-box{
+			position: absolute;
+			left: 50px;
+			top:10px;
+			background-color:#323332;
+		}
+	</style>
 </head>
 <body>
 <!-- .preloader -->
@@ -83,14 +43,19 @@
     <!-- /#nav-bar -->
 <!-- #banner -->
 <div class="slider">
+	<div class="info-box"><my-element1></my-element1></div>
 	<div class="slide">
 		<img src="img/slides/slide1.jpg" alt="Slide 1">
 		<img src="img/slides/slide2.jpg" alt="Slide 2">
 		<img src="img/slides/slide3.jpg" alt="Slide 3">
 		<img src="img/slides/slide1.jpg" alt="Slide 1">
+	
 	</div>
 </div>
  <!-- /#banner -->
+ <div>
+	 
+ </div>
 <!-- #about-section -->
 <section id="about-section" class="parallax-section" style="background-image: url(img/about/bg.png);">
 	<div class="container">

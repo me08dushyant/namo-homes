@@ -3753,3 +3753,53 @@ footer p {
   color: #EB9500;
   margin-right: 10px;
 }
+
+/* Slider Styles */
+@keyframes slider{
+            
+            0%{
+                margin-left: 0;
+            }
+            
+            12.5%{
+                margin-left: -100%;
+            }
+            25%{
+                margin-left: -100%;
+            }
+            37.5%{
+                margin-left: -200%;
+            }
+            50%{
+                margin-left: -200%;
+            }
+            
+            75%{
+                margin-left: -300%;
+                
+            }
+            87.5%{
+                margin-left: -300%;
+            }
+            100%{
+                margin-left: -300%;
+            }
+            
+            
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .slider{
+            width: 100%;
+            overflow: hidden;
+        }
+        .slider .slide{
+            width: 400%;
+            animation: slider 10s ease 3s infinite;
+        }
+        .slider .slide img{
+            float: left;
+            width: 25%;
+        }
