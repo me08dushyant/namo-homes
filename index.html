@@ -840,17 +840,35 @@ These exclusive Villaments offer an amazing lifestyle and unmatched comfort that
 			<!-- .contact-form-wrap -->
 			<div class="col-lg-5 col-md-7 col-lg-offset-0 col-md-offset-2 contact-form-wrap">
 				<h3>send message to merry</h3>
-				<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form">
+			<!--	<form action="https://mailthis.to/me08dushyant@gmail.com" 
+    method="POST"  class="contact-form">
 					<p><input name="name" type="text" placeholder="Name"></p>
 					<p><input name="phone" type="text" placeholder="Phone Number"></p>
-					<p><input name="email" type="text" placeholder="E-mail"></p>
+					<p><input name="_replyto" type="email" placeholder="E-mail"></p>
 					<p><textarea name="message" placeholder="Message"></textarea></p>
-					<p><button type="submit">submit now</button></p>
-				</form>
+					<p><input type="submit" value="Send"> </p>
+				</form> -->
+				
+				
+<form action="https://mailthis.to/me08dushyant@gmail.com"
+    method="POST" encType="multipart/form-data">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="_replyto" placeholder="Your email">
+    <textarea name="message" placeholder="Enter your message here"></textarea>
+   <!-- <input type="file" name="file" placeholder="Attachments (optional)"> -->
+    <input type="hidden" name="_subject" value="Contact form submitted">
+    <input type="hidden" name="_after" value="http://namohomes.com/">
+    <input type="hidden" name="_honeypot" value="">
+    <input type="hidden" name="_confirmation" value="">
+    <input type="submit" value="Send">
+</form>
+
 			</div><!-- /.contact-form-wrap -->
 		</div>
 	</div>
 </section><!-- /#appointment -->
+
+
 
 
 <!-- #home-footer-google-map-wrap -->
