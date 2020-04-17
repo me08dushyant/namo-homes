@@ -1,5 +1,8 @@
 import { LitElement, css , html } from 'https://unpkg.com/lit-element/lit-element.js?module';
 
+
+
+
 class MyElement extends LitElement {
     static get properties() {
         return { name: { type: String } };
@@ -194,4 +197,25 @@ class MyElement1 extends LitElement {
       `;
     }
   }
-  customElements.define('my-element1', MyElement1);
+ customElements.define('my-element1', MyElement1);
+ 
+
+
+
+class addBox extends LitElement {
+	    static get properties() {
+        return { name: { type: String } };
+      }
+    
+      constructor() {
+        super();
+        this.name = '13';
+      }
+  render() {
+    return html`<p>template content ${parseInt(this.name) + 1}</p>`;
+  }
+}
+  
+customElements.define('add-box', addBox);
+  
+ 
