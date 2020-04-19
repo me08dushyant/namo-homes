@@ -7,13 +7,15 @@ let headertop = () => html`
 			<div class="row">
 				<!-- .call-back -->
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 pull-left call-back">
-					<a href="#"><i class="fa fa-phone"></i> Request Call Back</a>
+					<a href="https://wa.me/919013667550"><img src="img/whatsapp.webp" width="35" />  <span style="margin-left:10px">WhatsApp Connect</span> </a>
+					
+					
 				</div><!-- /.call-back -->
 				<!-- .contact-info -->
 				<div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 pull-right text-right">
 					<ul class="contact-info">
 						<li><a href="#"><i class="fa fa-envelope"></i> info@namohomes.com</a></li>
-						<li><a href="#"><i class="fa fa-phone"></i> 1800 -984-9658</a></li>
+						<li><a href="#"><i class="fa fa-phone"></i> 7080 9031 04 - 05 - 06 </a></li>
 					</ul>
 				</div><!-- /.contact-info -->
 			</div>
@@ -49,8 +51,7 @@ let hiddenbar =() => html`
                 <li>
                 	<a href="take-a-tour.html">Take a Tour</a>
                 </li>
-                <li> <a href="about.html">About Us</a>
-                </li>
+                <li> <a href="about.html">About Us</a></li>
                 <li>
                 	<a href="gallery1.html">Gallery</a>
                 </li>
@@ -87,11 +88,10 @@ let navbar= () => html`
 			                <li>
 			                	<a href="take-a-tour.html">Take a Tour</a>
 			                </li>
-			                <li> <a href="about.html">About Us</a>
-			                </li>
+
 
 			                <li>
-			                	<a href="blog-left.html">News</a>
+			                	<a href="blog-left.html">Construction Update</a>
 			                </li>
 			                <li> <a href="contact.html">Contact Us</a>
 			                </li>
@@ -128,9 +128,7 @@ let footer = () =>html`
 				<!-- .footer-menu -->
 				<div class="footer-menu">
 					<ul>
-						<li><a href="index.html">Home</a></li>
-	                    <li><a href="about.html">About Us</a></li>
-	                    <li><a href="gallery1.html">Gallery</a></li>
+						<li><a href="index.html">Home</a></li>	                    
 	                    <li><a href="take-a-tour.html">Take a Tour</a></li>                
 	                    <li><a href="blog-left.html">News</a></li>
 	                    <li><a href="contact.html">Contact Us</a></li>
