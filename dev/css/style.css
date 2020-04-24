@@ -707,6 +707,7 @@ header.home-header .navbar-collapse.collapse {
 #property-highlight .property-highlight-text {
   padding-top: 80px;
   padding-left: 75px;
+  
 }
 #property-highlight .single-property-highlight {
   margin-bottom: 50px;
@@ -3756,15 +3757,50 @@ footer p {
 
 .grid{
   display: grid;
-  grid-template-columns: 2fr 2fr 3fr;
+  
+ 
   grid-gap: 5rem;
+  grid-template-areas:  
+  "loc cinfo cform";
+  
 }
+
+
 .grid-place{
 	  display: grid;
   grid-template-columns: 4fr 1fr;
    grid-gap: 5rem;
+   
+
 	
 }
+.grid-about{
+	 display: grid;	
+	 grid-gap: 5rem;
+	 grid-template-areas:  
+	 "secone sectwo";
+	 padding:20px;
+}
+
+.grid-sec{
+	display: grid;	
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5rem;
+	
+}
+.grid-sec .img{
+	
+	background: url(https://image.shutterstock.com/image-photo/studio-shot-lovely-woman-wears-600w-1523214461.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:50px;
+	
+}
+
+
+
  .essential-place  {
     border-bottom: 1px solid #133A4C;
     padding-bottom: 12px;
@@ -3835,4 +3871,38 @@ footer p {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+@media all and (max-width: 699px) {
+.grid{
+  padding:20px;
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-areas:  
+  "loc"
+  "cinfo"
+  "cform";
+	}
+.grid-about{
+	 display: grid;	
+	 grid-gap: 5rem;
+	 grid-template-areas:  
+	 "secone"
+	 "sectwo";
+	 padding:20px;
+}
+
+
+}
+  @media (max-width: 1024px) and (min-width: 700px)  {
+.grid{
+  padding:20px;
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-areas:  
+  "loc loc" 
+  "cinfo cform";
+  
+	}
+
 }
