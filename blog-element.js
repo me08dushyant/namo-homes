@@ -1,4 +1,4 @@
-import { LitElement, css , html } from 'https://unpkg.com/lit-element/lit-element.js?module';
+import { LitElement, css , html } from 'lit-element';
 
 const blogData = [
   {

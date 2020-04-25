@@ -3786,20 +3786,69 @@ footer p {
 	display: grid;	
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 5rem;
+	grid-template-areas:  
+	 "secone sectwo";	
 	
 }
 .grid-sec .img{
+	height: 100%;
+  display: grid;
+  justify-items:center;
+	padding-top:40px;
+	padding-bottom:40px;
 	
-	background: url(https://image.shutterstock.com/image-photo/studio-shot-lovely-woman-wears-600w-1523214461.jpg) no-repeat center center ; 
+}
+.grid-center{
+	
+	margin: auto;
+	
+}
+
+
+.imgone{
+		background: url(../img/about1.jpg) no-repeat center center ; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding:50px;
-	
 }
 
+.imgtwo{
+		background:url(../img/about2.jpg) no-repeat center center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+.grid-sec #two{
+	padding-left:0px;
+	padding-right:0px;
+	
+}
+.grid-sec #two h2{font-weight:800; font-size:18px;}
+.sec-about{
+	background-color:#eee;
+}
+.sec-team{
+	background-color:#eee;
+}
+.grid-team {
+	display:grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-gap: 2rem;
+	padding:20px;
+	
+}
+.grid-team .team {
+	padding:40px;
+	background-color:#fefefe;	
+	border:1px solid #eee;
+}
+.grid-team .team:hover {
+	background-color:#fff;
+	border:1px solid #eee;
+}
 
  .essential-place  {
     border-bottom: 1px solid #133A4C;
@@ -3844,13 +3893,15 @@ footer p {
     font-weight: 600; 
 	
 }
+
 .dwn10{	padding-bottom:10px; }
 .dwn20{	padding-bottom:20px; }
 .dwn30{	padding-bottom:30px; }
 .dwn40{	padding-bottom:40px; }
 .dwn50{	padding-bottom:50px; }
 
-.up20{	padding-top:30px; }
+.up10{	padding-top:10px; }
+.up20{	padding-top:20px; }
 .up30{	padding-top:30px; }
 .up40{	padding-top:40px; }
 .up50{	padding-top:50px; }
@@ -3892,17 +3943,46 @@ footer p {
 	 padding:20px;
 }
 
+	.grid-sec{
+	display: grid;	
+	grid-template-columns: 1fr ;
+	grid-gap: 1rem;
+	grid-template-areas:  
+	"one"
+	"two";		
+	
+}
+.grid-sec #two{
+	padding-left:20px;
+	padding-right:20px;
+}
+
 
 }
   @media (max-width: 1024px) and (min-width: 700px)  {
 .grid{
   padding:20px;
   display: grid;
-  grid-gap: 5rem;
+  grid-gap: 2rem;
   grid-template-areas:  
   "loc loc" 
   "cinfo cform";
   
 	}
+	
+.grid-sec{
+	display: grid;	
+	grid-template-columns: 1fr ;
+	grid-gap: 1rem;
+	grid-template-areas:  
+	"one"
+	"two";	
+	
+}
+
+.grid-sec #two{
+	padding-left:20px;
+	padding-right:20px;
+}
 
 }

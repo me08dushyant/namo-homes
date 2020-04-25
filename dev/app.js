@@ -88,8 +88,7 @@ let navbar= () => html`
 			                <li>
 			                	<a href="take-a-tour.html">Take a Tour</a>
 			                </li>
-
-
+							<li> <a href="about.html">About Us</a></li>
 			                <li>
 			                	<a href="blog-left.html">Construction Update</a>
 			                </li>
@@ -129,7 +128,8 @@ let footer = () =>html`
 				<div class="footer-menu">
 					<ul>
 						<li><a href="index.html">Home</a></li>	                    
-	                    <li><a href="take-a-tour.html">Take a Tour</a></li>                
+	                    <li><a href="take-a-tour.html">Take a Tour</a></li>
+						<li> <a href="about.html">About Us</a></li>
 	                    <li><a href="blog-left.html">News</a></li>
 	                    <li><a href="contact.html">Contact Us</a></li>
 					</ul>
