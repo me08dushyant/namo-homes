@@ -52,9 +52,7 @@ let hiddenbar =() => html`
                 	<a href="take-a-tour.html">Take a Tour</a>
                 </li>
                 <li> <a href="about.html">About Us</a></li>
-                <li>
-                	<a href="gallery1.html">Gallery</a>
-                </li>
+
                 <li>
                 	<a href="blog-left.html">News</a>
                 </li>
