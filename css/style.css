@@ -3842,12 +3842,16 @@ footer p {
 }
 .grid-team .team {
 	padding:40px;
-	background-color:#fefefe;	
+	background-color:#eba02e;	
 	border:1px solid #eee;
 }
 .grid-team .team:hover {
 	background-color:#fff;
 	border:1px solid #eee;
+}
+.grid-team span{
+	font-weight:800;
+	padding-top:15px;
 }
 
  .essential-place  {
