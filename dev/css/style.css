@@ -1000,6 +1000,12 @@ header.home-header .navbar-collapse.collapse {
   height: 350px;
   margin-left: 20px;
 }
+#map{
+	height:500px;
+	width:100%;
+	margin:0px;
+	padding:px;
+}
 .testimonial-wrap {
   background: #8a6d3b;
   position: relative;

@@ -327,9 +327,12 @@
          </div>
       </section>
       <!-- #home-footer-google-map-wrap -->
+	<div id="map"></div>
+	<!-- 
       <section id="home-footer-google-map-wrap">
          <div class="google-map" id="home-footer-google-map" data-map-lat="25.4484" data-map-lng="78.5685"  data-map-zoom="12" data-map-overlay-clr="rgba(0,0,0, 0)" data-icon-path="img/resources/footer-map-marker.png"></div>
       </section>
+	 -->
       <!-- /#home-footer-google-map-wrap --> 
       <div id="footer">
       </div>
@@ -384,6 +387,26 @@
          </div>
       </div>
       <!-- /Modal -->
+	  
+	 
+    
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 25.4484, lng: 78.5685},
+          zoom: 12,
+		  
+        });
+		marker = new google.maps.Marker({
+		position:{lat: 25.4484, lng: 78.5685}, 
+		map: map 	})
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPna1vl0nc4afCQ3p8hrI7a7hhoJ_IXCc&callback=initMap"
+    async defer></script>
+	   
+	  </script>
       <script src="js/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/wow.js"></script>
