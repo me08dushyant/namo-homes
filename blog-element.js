@@ -2,26 +2,20 @@ import { LitElement, css , html } from 'lit-element';
 
 const blogData = [
   {
-    title: "This is a first Title",
-    user: "Aman Madaan",
-	date: ["09", "Aug"],
+    title: "Rera Registration Certificate",
+    user: "Admin",
+	date: ["09", "May"],
     photo: "img/blog-post/1	.jpg",
-	html: '<strong>Ut enim </strong> <h1>ad minima </h1> <p>veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid etx ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla <a href="#">pariatur</a>.'
+	html: 'We present you RERA Registration Ceritificate.  <a href="img/blog-post/rera-certificate.pdf">Download PDF</a> for more details'
   },
   {
-    title: "This is a Second Title",
-    user: "Suri",
-	date: ["01", "Mar"],
-    photo: "img/blog-post/2	.jpg",
-	html: 'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid etx ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.'
+    title: "JDA Approved Certificate",
+    user: "Admin",
+	date: ["10", "May"],
+    photo: "img/blog-post/2.png",
+	html: 'We here announce that Namo Homes is now JDA Approved Project. <a href="img/blog-post/jda-approved-certificate.pdf">Download PDf</a> for more Details'
   },
-  {
-    title: "This is a Third Title",
-    user: "Nishi Madaan",
-	date: ["10", "July"],
-    photo: "img/blog-post/3	.jpg",
-	html: 'Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid etx ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.'
-  },
+  
   
 ];
 
@@ -91,30 +85,7 @@ class myblog extends LitElement {
             font-weight: bold;
             display: block;
           }
-          .single-blog-post .img-holder .overlay {
-            background: rgba(255, 174, 0, 0.65);
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: 1;
-            text-align: center;
-            -webkit-transform: scale(0);
-                -ms-transform: scale(0);
-                    transform: scale(0);
-          }
-          .single-blog-post .img-holder .overlay a {
-            display: table;
-            width: 100%;
-            height: 100%;
-            color: #fff;
-          }
-          .single-blog-post .img-holder .overlay a .fa {
-            display: table-cell;
-            vertical-align: middle;
-            font-size: 20px;
-          }
+          
           .single-blog-post ul {
             padding: 19px 0 26px;
           }
@@ -280,7 +251,7 @@ class myblog extends LitElement {
                       <!-- .img-holder -->
                       <div class="img-holder">
                           <img src=${i.photo} alt="">
-                          <div class="overlay"><a href="blog-single.html"><i class="fa fa-link"></i></a></div>
+                          
                       </div><!-- /.img-holder -->
                       <!-- .post-meta -->
                       <div class="post-meta">

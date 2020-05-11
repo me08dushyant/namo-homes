@@ -54,7 +54,7 @@ let hiddenbar =() => html`
                 <li> <a href="about.html">About Us</a></li>
 
                 <li>
-                	<a href="blog-left.html">News</a>
+                	<a href="news.html">News</a>
                 </li>
                 <li> <a href="contact.html">Contact Us</a>
                 </li>
@@ -88,7 +88,7 @@ let navbar= () => html`
 			                </li>
 							<li> <a href="about.html">About Us</a></li>
 			                <li>
-			                	<a href="blog-left.html">Construction Update</a>
+			                	<a href="news.html">Construction Update</a>
 			                </li>
 			                <li> <a href="contact.html">Contact Us</a>
 			                </li>
@@ -128,13 +128,13 @@ let footer = () =>html`
 						<li><a href="index.html">Home</a></li>	                    
 	                    <li><a href="take-a-tour.html">Take a Tour</a></li>
 						<li> <a href="about.html">About Us</a></li>
-	                    <li><a href="blog-left.html">News</a></li>
+	                    <li><a href="news.html">News</a></li>
 	                    <li><a href="contact.html">Contact Us</a></li>
 					</ul>
 				</div><!-- /.footer-menu -->
 				<!-- .footer-copyright -->
 				<div class="footer-copyright">
-					<p>Copyright &copy; NAMO HOMES,2020 All rights reserved.</p>
+					<p>Copyright &copy; NAMO HOMES, 2020 All rights reserved.</p>
 				</div><!-- /.footer-copyright -->
 			</div>
 		</div>
