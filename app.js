@@ -19,7 +19,7 @@ let headertop = () => html`
 					</ul>
 				</div><!-- /.contact-info -->
 			</div>
-		</div>
+		</div
 	</section><!-- /#top-bar -->
 `;
 render(headertop(),document.getElementById('main-top-bar'));
@@ -54,7 +54,7 @@ let hiddenbar =() => html`
                 <li> <a href="about.html">About Us</a></li>
 
                 <li>
-                	<a href="news.html">News</a>
+                	<a href="construction-update.html">Construction Update</a>
                 </li>
                 <li> <a href="contact.html">Contact Us</a>
                 </li>
@@ -88,7 +88,7 @@ let navbar= () => html`
 			                </li>
 							<li> <a href="about.html">About Us</a></li>
 			                <li>
-			                	<a href="news.html">Construction Update</a>
+			                	<a href="construction-update.html">Construction Update</a>
 			                </li>
 			                <li> <a href="contact.html">Contact Us</a>
 			                </li>
@@ -128,7 +128,7 @@ let footer = () =>html`
 						<li><a href="index.html">Home</a></li>	                    
 	                    <li><a href="take-a-tour.html">Take a Tour</a></li>
 						<li> <a href="about.html">About Us</a></li>
-	                    <li><a href="news.html">News</a></li>
+	                    <li><a href="construction-update.html">Construction Update</a></li>
 	                    <li><a href="contact.html">Contact Us</a></li>
 					</ul>
 				</div><!-- /.footer-menu -->
