@@ -30,7 +30,6 @@
 				<div class="section-title text-center">
 					
 					<h2><span>Contact Us</span></h2>
-					<p>Namo group is an emerging name in the real estate space. The company leverages on its expertise and experience to offer customers supreme set of construction and development projects. Till now we have successfully completed 5 residential and 2 commercial projects.</p>
 				</div><!-- /.section-title -->
 			</div>
 		</div>
@@ -38,13 +37,25 @@
 			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
 				<!-- .contact-form-wrap -->
 				<div class="contact-form-wrap">
-					<form action="https://mailthis.to/me08dushyant@gmail.com" method="post" class="contact-form">
+				<!-- 	<form action="https://mailthis.to/me08dushyant@gmail.com" method="post" class="contact-form">
 						<p><input name="name" type="text" placeholder="Name"></p>
 						<p><input name="email" type="text" placeholder="E-mail"></p>
 						<p><input name="subject" type="text" placeholder="Subject"></p>
 						<p><textarea name="message" placeholder="Message"></textarea></p>
 						<p><button type="submit">submit now</button></p>
-					</form>
+						<input type="submit" value="Send"> 
+					</form> -->
+					
+					<form action="https://mailthis.to/me08dushyant@gmail.com"
+    method="POST" encType="multipart/form-data"  >
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="_replyto" placeholder="Your email">
+    <textarea name="message" placeholder="Enter your message here"></textarea>
+	<input type="hidden" name="_after" value="http://namohomes.com/">
+    <input type="submit" value="Send">
+</form>
+
+
 				</div><!-- /.contact-form-wrap -->
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
