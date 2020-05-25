@@ -7,15 +7,15 @@ let headertop = () => html`
 			<div class="row">
 				<!-- .call-back -->
 				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 pull-left call-back">
-					<a href="https://wa.me/918400417004"><img src="img/whatsapp.webp" width="35" />  <span style="margin-left:10px">WhatsApp Connect</span> </a>
+					<a href="https://wa.me/918400417004" target="_blank"><img src="img/whatsapp.webp" width="35" />  <span style="margin-left:10px">WhatsApp Connect</span> </a>
 					
 					
 				</div><!-- /.call-back -->
 				<!-- .contact-info -->
 				<div class="col-lg-5 col-md-6 col-sm-6 col-xs-12 pull-right text-right">
 					<ul class="contact-info">
-						<li><a href="#"><i class="fa fa-envelope"></i> info@namohomes.com</a></li>
-						<li><a href="#"><i class="fa fa-phone"></i> 7080 9031 04 - 05 - 06 </a></li>
+						<li><a href="mailto:info@namohomes.com" target="_blank"><i class="fa fa-envelope"></i> info@namohomes.com</a></li>
+						<li><a href="tel:7080903104" target="_blank"><i class="fa fa-phone"></i> 7080 9031 04 - 05 - 06 </a></li>
 					</ul>
 				</div><!-- /.contact-info -->
 			</div>
