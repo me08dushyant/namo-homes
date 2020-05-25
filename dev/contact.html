@@ -65,10 +65,14 @@
 
 <form action=" https://formsubmit.co/dushyant@orangestudio.in " method="POST">
 
-    <input type="text" name="name">
-    <input type="email" name="email">
-    <input type="text" name="tel">
+    <input type="text" name="name" placeholder="Your Name" >
+    <input type="email" name="email" placeholder="Your Email">
+    <input type="text" name="tel" placeholder="Your Phone">
+	<textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>        
     <button type="submit">Send</button>
+	<input type="hidden" name="_captcha" value="false">
+	<input type="hidden" name="_autoresponse" value="Thanks for contacting us. Our team will contact you soon.">
+	<input type="hidden" name="_next" value="http://namohomes.com/contact.html">
 
 </form>
 
