@@ -66,9 +66,9 @@
 
 <form action=" https://formsubmit.co/info@namohomes.com " method="POST">
 
-    <input type="text" name="name" placeholder="Your Name" >
-    <input type="email" name="email" placeholder="Your Email">
-    <input type="text" name="tel" placeholder="Your Phone">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="tel" placeholder="Your Phone" required>
 	<textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>        
     <button type="submit">Send</button>
 	<input type="hidden" name="_captcha" value="false">	
@@ -118,9 +118,9 @@
 					<div class="contact-form-wrap anim-5-all">
 						<form action="http://world5.commonsupport.com/html/apart-villa/inc/sendemail.php" class="contact-form row">
 							<div class="col-md-6">
-								<p><input name="name" type="text" placeholder="Name"></p>
-								<p><input name="phone" type="text" placeholder="Phone"></p>
-								<p><input name="email" type="text" placeholder="Email"></p>
+								<p><input name="name" type="text" placeholder="Name" required ></p>
+								<p><input name="phone" type="text" placeholder="Phone" required ></p>
+								<p><input name="email" type="text" placeholder="Email" required ></p>
 							</div>
 							<div class="col-md-6">
 								<p><textarea name="message" placeholder="Message"></textarea></p>
