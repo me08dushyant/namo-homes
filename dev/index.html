@@ -318,7 +318,7 @@
                </div>
                <div id="cform" class="contact-form-wrap">
                   <div class="section-title location	">
-                     <span>Free ebook </span>
+                     <span>Fill in form to download Free ebook </span>
                      <h2><span>Downlod E-brochure</span></h2>
                   </div>
                   <!-- /.section-title -->
@@ -374,7 +374,7 @@
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h4 class="modal-title text-center" id="myModalLabel">Contact Our Agent</h4>
+				<h4 class="modal-title text-center" id="myModalLabel">Meet our Executives</h4>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 			</div>
 			<div class="modal-body">
@@ -452,6 +452,36 @@ s0.parentNode.insertBefore(s1,s0);
 
   ga('create', 'UA-15521914-3', 'auto');
   ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+function downloadURI(uri, name) 
+{
+    var link = document.createElement("a");
+    // If you don't know the name or want to use
+    // the webserver default set name = ''
+    link.setAttribute('download', name);
+    link.href = uri;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+}
+
+var queryString = window.location.search;
+var urlParams = new URLSearchParams(queryString);
+var pdfsrc = urlParams.get('src');
+
+window.onload = (event) => {
+if(pdfsrc == 'pdf'){
+
+ var url = "http://namohomes.com/img/blog-post/namo-homes-ebook.pdf";
+  var w=window.open(url, '_blank');
+  w.focus();
+  window.location.replace("http://www.namohomes.com");
+  }
+};
+
 
 </script>
       <script type="module" src="app.js"></script>
