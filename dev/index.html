@@ -352,7 +352,7 @@
 	<p><textarea name="message" placeholder="Message"></textarea>                   </p>    
     <button type="submit" style="margin-top:10px; width:100%; background-color:burlywood; color:white" >Send</button>
 	<input type="hidden" name="_captcha" value="false">	
-	<input type="hidden" name="_next" value="http://namohomes.com/dev/img/blog-post/namo-homes-ebook.pdf">
+	<input type="hidden" name="_next" value="http://namohomes.com/?src=pdf">
 
 </form> 
 
@@ -475,9 +475,10 @@ var pdfsrc = urlParams.get('src');
 window.onload = (event) => {
 if(pdfsrc == 'pdf'){
 
- var url = "http://namohomes.com/img/blog-post/namo-homes-ebook.pdf";
-  var w=window.open(url, '_blank');
-  w.focus();
+// var url = "http://namohomes.com/img/blog-post/namo-homes-ebook.pdf";
+  //var w=window.open(url, '_blank');
+  //w.focus();
+   window.open('http://namohomes.com/img/blog-post/namo-homes-ebook.pdf');
   window.location.replace("http://www.namohomes.com");
   }
 };
