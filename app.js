@@ -134,7 +134,7 @@ let footer = () =>html`
 				</div><!-- /.footer-menu -->
 				<!-- .footer-copyright -->
 				<div class="footer-copyright">
-					<p>Copyright &copy; NAMO HOMES, 2020 All rights reserved.</p>
+					<p> <a href="privacy-policy.html">Privacy Policy </a> Copyright &copy; NAMO HOMES, 2020 All rights reserved.</p>
 				</div><!-- /.footer-copyright -->
 			</div>
 		</div>
